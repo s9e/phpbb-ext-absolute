@@ -1,0 +1,19 @@
+{
+	"name": "s9e/absolute",
+	"type": "phpbb-extension",
+	"description": "Forces URLs used in the [url] BBCode to be treated as absolute URLs.",
+	"homepage": "https://github.com/s9e/phpbb-ext-absolute/",
+	"version": "1.0.0",
+	"keywords": ["phpbb"],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.5.0"
+	},
+	"authors": [{ "name": "JoshyPHP" }],
+	"extra": {
+		"display-name": "s9e/absolute",
+		"soft-require": {
+			"phpbb/phpbb": "3.2.2"
+		}
+	}
+}
